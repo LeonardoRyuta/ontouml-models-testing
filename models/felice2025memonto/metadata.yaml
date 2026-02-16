@@ -1,7 +1,7 @@
 title: Memory Ontology
 acronym: Mem'Onto
 issued: 2025
-modified:
+modified: 2025
 contributor:
  - https://orcid.org/0009-0001-9829-2034
  - https://orcid.org/0009-0005-2910-1539
@@ -10,6 +10,10 @@ keyword:
  - memory
  - psychology
  - neurosciences
+ - domain ontology
+ - FAIRness
+ - CoTOn
+ - UFO
 theme: Class B - Philosophy, Psychology, Religion
 editorialNote: Mem'Onto is grounded on UFO and is adapted from CoTOn (Cognitive Theory Ontology from Ravenschlag et al., 2023).
 ontologyType:
