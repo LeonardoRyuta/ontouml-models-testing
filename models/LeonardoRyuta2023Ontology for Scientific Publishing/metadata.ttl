@@ -1,0 +1,39 @@
+@prefix ontouml: <https://purl.org/ontouml-models/vocabulary/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix mod: <https://w3id.org/mod#>.
+@prefix lcc: <http://id.loc.gov/authorities/classification/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/> a dcat:Dataset, mod:SemanticArtefact;
+    dct:title "Ontology for Scientific Publishing"@en;
+    dct:issued "2023"^^xsd:gYear;
+    dcat:theme <Class Q - Science>;
+    dct:language "pt-br";
+    dct:license <https://creativecommons.org/licenses/by/4.0/>;
+    skos:editorialNote "The original name of the ontology, in portuguese, is \"Ontologia para Integração de Dados de Publicações Científicas";
+    dcat:keyword "publishing", "sciences", "scientific publishing";
+    mod:designedForTask <https://purl.org/ontouml-models/vocabulary/conceptual clarification>, <https://purl.org/ontouml-models/vocabulary/software engineering>;
+    ontouml:context ontouml:research;
+    ontouml:ontologyType ontouml:domain;
+    ontouml:representationStyle ontouml:ontouml;
+    dcat:distribution <http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/ttl>.
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/ttl> a dcat:Distribution;
+    dct:title "Turtle distribution of \"Ontology for Scientific Publishing\""@en;
+    dcat:mediaType "text/turtle";
+    dcat:downloadURL <https://raw.githubusercontent.com/LeonardoRyuta/ontouml-models/master/LeonardoRyuta2023Ontology for Scientific Publishing/ontology.ttl>.
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/> dcat:distribution <http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/json>.
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/json> a dcat:Distribution;
+    dct:title "JSON distribution of \"Ontology for Scientific Publishing\""@en;
+    dcat:mediaType "application/json";
+    dcat:downloadURL <https://raw.githubusercontent.com/LeonardoRyuta/ontouml-models/master/LeonardoRyuta2023Ontology for Scientific Publishing/ontology.json>.
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/> dcat:distribution <http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/vpp>.
+<http://purl.org/ontouml-models/dataset/LeonardoRyuta2023Ontology for Scientific Publishing/distribution/vpp> a dcat:Distribution;
+    dct:title "Visual Paradigm distribution of \"Ontology for Scientific Publishing\""@en;
+    dcat:mediaType "application/vpp";
+    dcat:downloadURL <https://raw.githubusercontent.com/LeonardoRyuta/ontouml-models/master/LeonardoRyuta2023Ontology for Scientific Publishing/ontology.vpp>.

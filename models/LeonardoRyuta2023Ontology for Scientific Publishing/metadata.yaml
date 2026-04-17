@@ -1,0 +1,24 @@
+title: Ontology for Scientific Publishing
+issued: 2023
+modified:
+contributor:
+keyword:
+ - publishing
+ - sciences
+ - scientific publishing
+theme: Class Q - Science
+editorialNote: The original name of the ontology, in portuguese, is "Ontologia para Integração de Dados de Publicações Científicas
+ontologyType:
+ - domain
+language: pt-br
+designedForTask:
+ - conceptual clarification
+ - software engineering
+context:
+ - research
+source:
+representationStyle:
+ - ontouml
+landingPage:
+license: https://creativecommons.org/licenses/by/4.0/
+
